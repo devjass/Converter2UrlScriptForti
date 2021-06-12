@@ -1,0 +1,56 @@
+config webfilter urlfilter
+    edit 126
+        set name ""Lista126""
+        config entries
+            edit 0
+                set url "http://google.com"
+                set action block
+            next
+            edit 0
+                set url "https://youtube.com"
+                set action block
+            next
+            edit 0
+                set url "http://linkedin.com"
+                set action block
+            next
+            edit 0
+                set url "http://home.office.com"
+                set action block
+            next
+            edit 0
+                set url "http://portal.office.com"
+                set action block
+            next
+            edit 0
+                set url "http://www.office.com"
+                set action block
+            next
+            edit 0
+                set url "http://outlook.office365.com"
+                set action block
+            next
+            edit 0
+                set url "http://signup.microsoft.com"
+                set action block
+            next
+            edit 0
+                set url "http://portal.microsoftonline.com"
+                set action block
+            next
+            edit 0
+                set url "http://prod.msocdn.com"
+                set action block
+            next
+            edit 0
+                set url "http://eltiempo.com"
+                set action block
+            next
+            edit 0
+                set url "http://www.elespectador.com"
+                set action block
+            next
+        end
+    next
+end
+end
